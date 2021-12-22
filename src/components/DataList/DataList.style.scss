@@ -1,0 +1,45 @@
+.addButton {
+  &:hover {
+    cursor: pointer;
+  }
+}
+.material-icon{
+  color: red;
+}
+
+.container{
+  padding: 10px 20px ;
+  & .filter-bar{
+    margin-bottom: 20px;
+  }
+}
+
+.data__container {
+  position: relative;
+}
+
+.header {
+  width: 100%;
+  background-color: #3f51b5;
+  color: white;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  &__right {
+    display: flex;
+
+    &__icon {
+      transform: scale(-1, 1) rotate(-45deg);
+      margin-left: 5px;
+    }
+  }
+}
+
+a {
+  outline: none;
+  color: white;
+  text-decoration: none;
+}
